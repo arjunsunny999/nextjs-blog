@@ -22,9 +22,10 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>I'm a computer science engineering graduate who is currently working as a Front End Developer.
-          I have done my training in data science using python (6 months).
-          I've worked as an AWS support engineer for 6 months. I'm currently working as an Angular Front End Developer in the same company in an HRMS project .I'm also interested in learning new technologies.</p>
+        <p>A computer science engineering graduate who is currently working as a Front End Developer.
+          Have done six months of training in data science using python.
+          Have worked as an AWS support engineer for six months and currently working as an Angular Front End Developer 
+          in the same company in an HRMS project. Interested in learning new technologies.</p>
         <p>
           (LinkedIn : {' '}
           <a href="https://www.linkedin.com/in/arjunsunny999/">Arjunsunny999</a>)
