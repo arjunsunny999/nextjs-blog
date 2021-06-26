@@ -26,13 +26,13 @@ export default function Home({ allPostsData }) {
           I have done my training in data science using python (6 months).
           I've worked as an AWS support engineer for 6 months. I'm currently working as an Angular Front End Developer in the same company in an HRMS project .I'm also interested in learning new technologies.</p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          (LinkedIn : {' '}
+          <a href="https://www.linkedin.com/in/arjunsunny999/">Arjunsunny999</a>)
         </p>
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>Education and career</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
 
@@ -42,7 +42,7 @@ export default function Home({ allPostsData }) {
            </Link>
            <br />
            <small className={utilStyles.lightText}>
-             <Date dateString={date} />
+             <span> Last updated <Date dateString={date} /> </span>
            </small>
          </li>
          
