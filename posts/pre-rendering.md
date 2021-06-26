@@ -1,11 +1,19 @@
 ---
-title: 'Two Forms of Pre-rendering'
-date: '2020-01-01'
+title: 'Education'
+date: '2021-06-26'
 ---
 
-Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
+St.Mary's English Medium Higher Secondary School,ICSE <br>
+Kozhikode, Kerala <br>
+High School<br>
+Jun 2008 — Mar 2013 75%, ICSE Board 
 
-- **Static Generation** is the pre-rendering method that generates the HTML at **build time**. The pre-rendered HTML is then _reused_ on each request.
-- **Server-side Rendering** is the pre-rendering method that generates the HTML on **each request**.
+Silver Hills English Medium Higher Secondary School<br>
+Kozhikode, Kerala Higher Secondary<br>
+Jun 2013 — Mar 2015 88%, Kerala State Board 
 
-Importantly, Next.js lets you **choose** which pre-rendering form to use for each page. You can create a "hybrid" Next.js app by using Static Generation for most pages and using Server-side Rendering for others.
+Viswajyothi College of Engineering and Technology <br>
+Muvattupuzha, Kerala <br>
+APJ Abdul Kalam Technological University <br>
+Bachelor of Technology in Computer Science and Engineering<br>
+Jul 2015 — May 2019
